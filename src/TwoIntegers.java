@@ -42,11 +42,13 @@ public class TwoIntegers {
 		int difference = val - val2;
 		int product = val*val2;
 		double quotient = (double)val/val2;
+		int mod = val % val2; 
 		
 		return (val + " + " + val2 + " = " + sum + ", " +
 				val + " - " + val2 + " = " + difference + ", " +
 				val + " * " + val2 + " = " + product + ", " + 
-				val + " / " + val2 + " = " + quotient);			
+				val + " / " + val2 + " = " + quotient + ", " +
+				val + " % " + val2 + " = " + mod);			
 	}
 	
 	public int larger()
