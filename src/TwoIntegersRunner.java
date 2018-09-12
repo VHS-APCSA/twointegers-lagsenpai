@@ -12,9 +12,11 @@ public class TwoIntegersRunner {
 		String arithmetic = twointegers.arithmetic();
 		int largernum = twointegers.larger();
 		boolean multiple = twointegers.isMultiple();
+		boolean isEven = twointegers.isEven();
 		
 		System.out.println(arithmetic);
 		System.out.println(largernum + " is the larger number.");
+		System.out.println("Is the sum of " + value + " + " + value2 + " even: " + isEven);
 		System.out.println("Is " + value + " a multiple of " + value2 + ": " + multiple);
 
 	}
