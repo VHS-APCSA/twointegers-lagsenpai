@@ -54,9 +54,13 @@ public class TwoIntegers {
 	public int larger()
 	{
 		if (val >= val2)
+		{
 			return val;
+		}
 		else
+		{
 			return val2;
+		}
 	}
 	
 	public boolean isEven() 
